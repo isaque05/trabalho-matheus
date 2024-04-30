@@ -3,12 +3,12 @@ print('bom dia')
 
 nota = float(input("digite qual a sua nota "))
 if nota >=9:
-    print ('vocé é um exelente aluno')
+    print ('A')
 elif nota >=7.5:
-    print ('vocé esta muito bem')
+    print ('B')
 elif nota >=6:
-    print ('vocé esta melhorando')
+    print ('C')
 elif nota >=4:
-    print ('vocé não esta indo  bem melhore')
+    print ('D')
 else:
-    print ('vocé vai reprovar de serie')
+    print ('F')
