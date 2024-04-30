@@ -1,7 +1,7 @@
 # CONVERSOR DE MEDIDAS 
 
 num = float(input("digite o valor:"))
-unidade = float(input("digite a unidade de medida,que sao metro, centimetro, quilometro, polegada, pés ou milha: "))
+unidade = str(input("digite a unidade de medida,que sao metro, centimetro, quilometro, polegada, pés ou milha: "))
 cmtom = num /100
 cmtokm = num / 100000
 cmtopolegada = num / 2.54
